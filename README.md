@@ -1,6 +1,6 @@
 # Reactjs Progress Bar
 
-![image](https://user-images.githubusercontent.com/90038064/191265383-5edf0885-9520-49ff-bd90-d14e4c1d612d.png)
+![image](https://user-images.githubusercontent.com/90038064/191265587-8cd1de85-f67e-4323-984c-220b0400e1c5.png)
 
 # Getting Started
 
