@@ -1,24 +1,25 @@
 .container {
     width: 100%;
-    margin: 150px auto
+    margin: 100px auto 0 auto;
 }
 
 .progress-item {
     width: 100%;
+    min-width: 20px;
     border-radius: 10px;
     margin: 0 5px 0 0;
 }
 
 .progress {
     display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .progress-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .info-wrapper {
@@ -26,10 +27,15 @@
     justify-content: space-around;
 }
 
+.info-wrapper__column {
+    display: flex;
+    flex-direction: column;
+}
+
 .info {
     display: flex;
-    height: 50px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .helper-color {

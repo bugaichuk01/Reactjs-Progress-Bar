@@ -7,7 +7,8 @@ function App() {
     const items = [
         {name: 'Sold', color: '#BD1FBE', value: 677},
         {name: 'Got free', color: '#FC64FF', value: 223},
-        {name: 'Burned', color: '#EA0000', value: 223},
+        {name: 'Free float', color: '#551379', value: 50},
+        {name: 'Burned', color: '#EA0000', value: 200},
         {name: 'Free float', color: '#00ea5e', value: 800},
         {name: 'Free float', color: '#00ea5e', value: 0},
     ]
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
         <ProgressBar items={items} width={1400} height={35} />
         <ProgressBar items={items} width={800} height={35} />
+        <ProgressBar items={items} width={300} height={35} />
     </div>
   );
 }
