@@ -10,7 +10,7 @@
 .progress-item {
     width: 100%;
     border-radius: 10px;
-    margin: 0 5px 0 0;
+    margin: 0 3px 0 0;
 }
 
 .info {
@@ -29,12 +29,6 @@
 .desc {
     font-size: 16px;
 }
-
-.info-wrapper__column {
-    display: flex;
-    flex-direction: column;
-}
-
 
 .info-wrapper {
     display: flex;
