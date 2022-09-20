@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    margin: 150px auto
+}
+
+.progress-item {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+}
+
+.progress {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around
+}
+
+.progress-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.helper-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.desc {
+    font-size: 16px;
+}
