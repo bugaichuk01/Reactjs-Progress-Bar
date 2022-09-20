@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
-        <ProgressBar items={items} width={1400} height={25} />
-        <ProgressBar items={items} width={800} height={50} />
+        <ProgressBar items={items} width={1400} height={35} />
+        <ProgressBar items={items} width={800} height={35} />
     </div>
   );
 }

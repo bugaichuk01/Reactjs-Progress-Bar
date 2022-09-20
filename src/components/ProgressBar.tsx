@@ -30,7 +30,7 @@ export const ProgressBar: React.FC<ProgressBarProps> = ({items, height, width}) 
                             {item.value > 0 && (
                                 <div>
                                     <div className='progress'>
-                                        {[...Array(Math.ceil(60 / sum * item.value))].map((index) => (
+                                        {[...Array(Math.ceil((width / 25) / sum * item.value))].map((index) => (
                                             <div className='progress-item' style={{backgroundColor: `${item.color}`, height: `${height}px`}}
                                                  key={index}/>
                                         ))}
